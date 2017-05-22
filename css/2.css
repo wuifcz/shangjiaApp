@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 308862 */
+    src: url('//at.alicdn.com/t/font_mlaxful0xsu7hkt9.eot');
+    src: url('//at.alicdn.com/t/font_mlaxful0xsu7hkt9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_mlaxful0xsu7hkt9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_mlaxful0xsu7hkt9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_mlaxful0xsu7hkt9.svg#iconfont') format('svg');
+}
+body{
+    background: #f7f7f7;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+.header-box{
+    width: 100%;
+    height: 0.86rem;
+    background: #fc313a;
+}
+.zuojian {
+    width: 3%;
+    height: 100%;
+    font-size: 0.3rem;
+    color: #fff;
+    margin-left: 0.25rem;
+    line-height: 0.86rem;
+    float: left;
+}
+.title{
+    width: 93%;
+    height: 100%;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.86rem;
+    float: left;
+    font-weight: bold;
+}
+.login{
+    width: 100%;
+    height: 0.67rem;
+    background: #fff;
+    font-size: 0.24rem;
+    color: #000;
+}
+.login-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 0.67rem;
+    border-bottom: 0.03rem solid #606060;
+}
+.login-right{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #f7f7f7;
+    text-align: center;
+    line-height: 0.67rem;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.name{
+    width: 100%;
+    height: 0.73rem;
+    background: #fff;
+}
+.name-img{
+    width: 0.77rem;
+    height: 0.73rem;
+    float: left;
+}
+.name-box{
+    width: 6.73rem;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+}
+.tou{
+    width: 100%;
+    height: 100%;
+}
+.icon{
+    font-family:'iconfont';
+    line-height: 0.73rem;
+    text-align: center;
+    font-size: 0.3rem;
+}
+.fen{
+    width: 94%;
+    height: 0.02rem;
+    margin: 0 auto;
+}
+.fen-left{
+    width: 2%;
+    height: 0.02rem;
+    float: left;
+    background: #b0b0b0;
+}
+.fen-middle{
+    width: 96%;
+    height: 0.02rem;
+    background: #f5f5f5;
+    float: left;
+}
+.fen-right{
+    width: 2%;
+    height: 0.02rem;
+    float: right;
+    background: #b0b0b0;
+}
+.login-btn{
+    width: 7.02rem;
+    height: 0.7rem;
+    background: -webkit-linear-gradient(left top,#fd313a,#fd8033);
+    margin: 0.51rem auto 0.32rem;
+}
+.login-box{
+    width: 2.4rem;
+    height: 0.7rem;
+    margin: 0 auto;
+}
+.login-quan{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    border: 0.03rem solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+    float: left;
+    margin-left: 0.29rem;
+    margin-top: 0.29rem;
+}
+.login-text{
+    width: 75%;
+    height: 0.7rem;
+    float: left;
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 0.26rem;
+    color: #fff;
+    font-weight: bold;
+}
+.login-quan1{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    border: 0.03rem solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+    float: left;
+    margin-top: 0.29rem;
+}
+.font{
+    width: 7.02rem;
+    height: 0.3rem;
+    margin:0 auto;
+    font-size: 0.22rem;
+    color: #a9a9a9;
+}
+.font-left{
+    float: left;
+}
+.font-right{
+    float: right;
+}
