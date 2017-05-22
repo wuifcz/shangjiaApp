@@ -3,6 +3,9 @@ body {
   width: 100%;
   height: 100%;
 }
+* {
+  font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .zj_box {
   width: 100%;
   height: 100%;
@@ -46,7 +49,7 @@ body {
 }
 .zj_box .zj_zhanghu .left {
   width: 1.58rem;
-  font-size: 0.24rem;
+  font-size: 0.3rem;
   float: left;
   color: #303030;
 }
@@ -69,7 +72,7 @@ body {
   height: 0.7rem;
   margin: 0 auto;
   background: linear-gradient(to right, #FD313A, #FD8033);
-  margin-top: 7.6rem;
+  margin-top: 6.6rem;
   border-radius: 6px;
   font-size: 0.22rem;
   line-height: 0.7rem;
