@@ -1,6 +1,229 @@
-/*
-* @Author: admin
-* @Date:   2017-05-22 19:11:29
-* @Last Modified by:   admin
-* @Last Modified time: 2017-05-22 19:20:33
-*/
+@font-face {
+    font-family: 'iconfont';  /* project id 308802 */
+    src: url('//at.alicdn.com/t/font_pqxi141vjmqdunmi.eot');
+    src: url('//at.alicdn.com/t/font_pqxi141vjmqdunmi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_pqxi141vjmqdunmi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_pqxi141vjmqdunmi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_pqxi141vjmqdunmi.svg#iconfont') format('svg');
+}
+body{
+	font-family: "苹方";
+}
+.lx-top{
+    width:100%;
+    height:0.88rem;
+    background:#FC313A;
+    position:relative;
+}
+
+.lx-top-left{
+    width:0.12rem;
+    height:0.21rem;
+    font-family:'iconfont';
+    font-size:0.21rem;
+    color:#fff;
+    line-height:0.88rem;
+    position:absolute;
+    left:0.25rem;
+}
+
+.lx-wyjr{
+    display:block;
+    width:1.57rem;
+    font-size:0.38rem;
+    color:#fff;
+    line-height:0.88rem;
+    float:inherit;
+    position:absolute;
+    left:0;right:0;
+    margin:auto;
+}
+
+.lx-top-right{
+    width:0.72rem;
+    height:100%;
+    float:right;
+    line-height:0.88rem;
+    color:#fff;
+    position:absolute;
+    right:0.25rem;
+}
+.lx-top-help{
+    font-size:0.21rem;
+    font-family:'iconfont';
+    color:#fff;
+    float:left;
+}
+.help{
+    display:block;
+    font-size:0.18rem;
+    float:right;
+}
+.lx-middle{
+    width:100%;
+    height:3.55rem;
+    background:url("../img/lx-1_03.jpg") center center no-repeat;
+    background-size:100%;
+    position:relative;
+}
+.lx-join{
+    width:4.26rem;
+    height:1.71rem;
+    border:0.04rem solid #fff;
+    position:absolute;
+    left:0;right:0;
+    top:0;bottom:0;
+    margin:auto;
+    line-height: 2.5;
+    color:#fff;
+    text-align: center;
+}
+
+.lx-jrsj{
+    display:block;
+    font-size:0.34rem;
+}
+
+.lx-qs{
+    display:block;
+    font-size:0.26rem;
+}
+.lx-content3{
+	width: 100%;
+	height: 8.47rem;
+	background: #fff;
+	margin-bottom: 0.23rem;
+}
+.con3-top{
+	height: 0.9rem;
+	overflow: hidden;
+}
+.con3-top .lx-sjkh{
+	width: 50%;
+	height: 0.9rem;
+	text-align: center;
+	line-height: 0.9rem;
+	float: left;
+	color: #0a0909;
+	font-size: 0.32rem;
+	border-bottom: 0.04rem solid #fc313a;
+}
+.con3-top .lx-sjrz{
+	width: 50%;
+	height: 0.9rem;
+	text-align: center;
+	line-height: 0.9rem;
+	float: right;
+	color: #7e7e7e;
+	background: #f7f7f7;
+	font-size: 0.32rem;
+	border-bottom: 0.01rem solid #eaeaea;
+}
+ul.lx-bottom{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	margin-top: 0.1rem;
+	overflow: hidden;
+	letter-spacing: 0.03rem;
+	
+}
+ul.lx-bottom li{
+	float: left;
+	width: 100%;
+	height: 2.5rem;
+	padding: 0.24rem;
+	position: relative;
+	border-bottom: 0.01rem solid #f3f3f3;
+	overflow: hidden;
+}
+.b-1{
+	width: 0.25rem;
+	height: 0.25rem;
+	border-radius: 50%;
+	line-height: 0.25rem;
+	text-align: center;
+	background: #fc313a;
+	color: #fff;
+	float: left;
+	font-size: 0.22rem;
+	position: absolute;
+	left: 0.23rem;
+	top: 0.46rem;
+}
+.p1{
+	position: absolute;
+	left: 0.85rem;
+	top: 0.37rem;
+}
+.p1 p{
+	font-size: 0.3rem;
+	color: #0a0909;
+}
+.p2{
+	width: 3.3rem;
+	position: absolute;
+	left: 0.85rem;
+	top: 0.83rem;
+}
+.p2 p{
+	color: #c8c8c8;
+	font-size: 0.28em;
+	line-height: 0.4rem;
+}
+.b-y{
+	width: 2.58rem;
+	height: 1.98rem;
+	float: right;
+	background: url('../img/lx-1.jpg') center center no-repeat;
+	background-size: 2.58rem 1.98rem;
+}
+.by2{
+	background: url('../img/lx-2.jpg') center center no-repeat;
+	background-size: 2.58rem 1.98rem;
+}
+.by3{
+	background: url('../img/lx-3.jpg') center center no-repeat;
+	background-size: 2.58rem 1.98rem;
+}
+.bottom{
+	position: absolute;
+  width: 7.05rem;
+  height: 0.7rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background:linear-gradient(90deg,#FD343A,#FD7C33);
+  border-radius: 0.08rem;
+  font-size:0.3rem;
+ color:#fff;
+  font-weight:bold;
+ text-align:center;
+ line-height:0.7rem;
+}
+.bottom:after{
+	content: "";
+	display: block;
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	left: 2.43rem;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.bottom:before{
+	content: "";
+	display: block;
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	right: 2.43rem;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}

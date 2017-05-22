@@ -1,0 +1,188 @@
+﻿@font-face {
+  font-family: 'iconfont';  /* project id 308802 */
+  src: url('//at.alicdn.com/t/font_si2ugjfpv755qaor.eot');
+  src: url('//at.alicdn.com/t/font_si2ugjfpv755qaor.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_si2ugjfpv755qaor.woff') format('woff'),
+  url('//at.alicdn.com/t/font_si2ugjfpv755qaor.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_si2ugjfpv755qaor.svg#iconfont') format('svg');
+}
+.lxj-top{
+    width:100%;
+    height:0.88rem;
+    background:#FC313A;
+    position:relative;
+}
+
+.lxj-top-left{
+    width:0.12rem;
+    height:0.21rem;
+    font-family:'iconfont';
+    font-size:0.21rem;
+    color:#fff;
+    line-height:0.88rem;
+    position:absolute;
+    left:0.25rem;
+}
+
+.lxj-wyjr{
+    display:block;
+    width:1.57rem;
+    font-size:0.38rem;
+    color:#fff;
+    line-height:0.88rem;
+    float:inherit;
+    position:absolute;
+    left:0;right:0;
+    margin:auto;
+}
+
+.lxj-top-right{
+    width:0.72rem;
+    height:100%;
+    float:right;
+    line-height:0.88rem;
+    color:#fff;
+    position:absolute;
+    right:0.25rem;
+}
+
+.lxj-top-help{
+    font-size:0.24rem;
+    font-family:'iconfont';
+    color:#fff;
+    float:left;
+}
+
+.help{
+    display:block;
+    font-size:0.18rem;
+    float:right;
+}
+
+.lxj-middle{
+    width:100%;
+    height:3.55rem;
+    background:url("../img/lxj-tu_03.png") center center no-repeat;
+    background-size:100%;
+    position:relative;
+}
+
+.lxj-mask{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;top:0;
+    background:rgba(0,0,0,0.6);
+}
+
+.lxj-join{
+    width:4.26rem;
+    height:1.71rem;
+    border:0.04rem solid #fff;
+    position:absolute;
+    left:0;right:0;
+    top:0;bottom:0;
+    margin:auto;
+    line-height: 2.5;
+    color:#fff;
+    text-align: center;
+    font-family: "苹方";
+}
+
+.lxj-jrsj{
+    display:block;
+    font-size:0.34rem;
+}
+
+.lxj-qs{
+    display:block;
+    font-size:0.26rem;
+}
+
+main{
+    width:100%;
+    height:8.91rem;
+    background:#F7F7F7;
+}
+
+ul.lxj-main-top{
+    width:100%;
+    height:0.68rem;
+}
+
+ul.lxj-main-top li{
+    width:50%;
+    height:100%;
+    font-size:0.24rem;
+    color:#171717;
+    text-align:center;
+    line-height:0.68rem;
+    float:left;
+}
+
+ul.lxj-main-top li:nth-child(2){
+    background:#fff;
+    border-bottom:0.06rem solid #606060;
+}
+
+.lxj-main-title{
+    width:100%;
+    height:0.74rem;
+    background:#fff;
+    position:relative;
+}
+
+.lxj-main-title img{
+    display:block;
+    width:0.41rem;
+    height:0.35rem;
+    position:absolute;
+    left:2.82rem;
+    top:0;bottom:0;
+    margin:auto;
+}
+
+.lxj-add{
+    width:1.44rem;
+    height:0.24rem;
+    font-size:0.24rem;
+    color:#3D3D3D;
+    position:absolute;
+    top:0;bottom:0;
+    left:3.3rem;
+    margin:auto;
+}
+
+.lxj-qxpc-box{
+    width:3.96rem;
+    height:0.28rem;
+    margin:0 auto;
+    margin-top:5.16rem;
+}
+
+.lxj-qxpc-box span{
+    display:block;
+    font-size:0.28rem;
+    float:left;
+}
+
+.lxj-alert{
+    font-family: 'iconfont';
+    float:right;
+    font-size:0.24rem;
+    color:#3D3D3D;
+}
+
+.lxj-btn{
+    width:3.82rem;
+    height:0.7rem;
+    margin:0 auto;
+    margin-top:0.36rem;
+    background:linear-gradient(90deg,#FD343A,#FD7C33);
+    border-radius: 0.08rem;
+    font-size:0.3rem;
+    color:#fff;
+    font-weight:bold;
+    text-align:center;
+    line-height:0.7rem;
+}
