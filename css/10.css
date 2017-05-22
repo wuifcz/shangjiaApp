@@ -103,3 +103,14 @@ main{
     width: 100%;
     height: 0.5rem;
 }
+.login-btn{
+    width: 7.02rem;
+    height: 0.7rem;
+    background: -webkit-linear-gradient(left top,#fd313a,#fd8033);
+    border-radius: 0.1rem;
+    margin: 7.8rem auto 0.32rem;
+    font-size: 0.26rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.7rem;
+}

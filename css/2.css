@@ -119,6 +119,7 @@ main{
     height: 0.7rem;
     background: -webkit-linear-gradient(left top,#fd313a,#fd8033);
     margin: 0.51rem auto 0.32rem;
+    border-radius: 0.1rem;
 }
 .login-box{
     width: 2.4rem;
