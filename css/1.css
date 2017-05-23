@@ -88,23 +88,23 @@ body {
   color: white;
 }
 .zj_box .ljzc .left {
-  width: 0.12rem;
-  height: 0.12rem;
+  width: 0.24rem;
+  height: 0.24rem;
   background: white;
   position: absolute;
   border-radius: 50%;
-  border: 0.06rem solid rgba(250, 250, 250, 0.6);
+  border: 0.06rem solid #fd7475;
   top: 0;
   bottom: 0;
   margin: auto;
   left: 2.5rem;
 }
 .zj_box .ljzc .right {
-  width: 0.12rem;
-  height: 0.12rem;
+  width: 0.24rem;
+  height: 0.24rem;
   background: white;
   position: absolute;
-  border: 0.06rem solid rgba(250, 250, 250, 0.6);
+  border: 0.06rem solid #fd7475;
   border-radius: 50%;
   top: 0;
   bottom: 0;
